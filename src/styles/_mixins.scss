@@ -1,0 +1,52 @@
+@use "sass:color";
+@use ".././styles/variables" as *;
+
+@mixin button-base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+
+  border: none;
+  cursor: pointer;
+  background: none;
+
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+@mixin button-size($size) {
+  @if $size == sm {
+    padding: 10px 20px;
+    border-radius: 6px;
+  } @else if $size==lg {
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 6px;
+  } @else {
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+}
+
+@mixin button-variant($variant) {
+  @if $variant == primary {
+    background-color: $color-brand-primary;
+    color: $color-white;
+
+    &:hover:not(:disabled) {
+      background-color: color.adjust($color-brand-primary, $lightness: -5%);
+      box-shadow: 0 4px 10px rgba(76, 175, 79, 0.3);
+    }
+  } @else if $variant == secondary {
+    background-color: transparent;
+    color: $color-brand-primary;
+
+    &:hover:not(:disabled) {
+      background-color: rgba($color-brand-primary, 0.1);
+      font-weight: $fw-bold;
+    }
+  }
+}

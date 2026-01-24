@@ -1,0 +1,62 @@
+@use ".././styles/variables" as *;
+
+.heading {
+  &--xl {
+    font-size: 64px;
+    line-height: 1.18;
+    font-weight: $fw-semibold;
+    color: $color-neutral-black;
+
+    @media (max-width: $bp-tablet) {
+      font-size: 48px;
+    }
+
+    @media (max-width: $bp-mobile) {
+      font-size: 36px;
+    }
+  }
+
+  &--lg {
+    font-size: 36px;
+    line-height: 1.22;
+    font-weight: $fw-semibold;
+    color: $color-neutral-black;
+  }
+
+  &--md {
+    font-size: 28px;
+    line-height: 1.28;
+    font-weight: $fw-semibold;
+    color: $color-text-main;
+  }
+}
+
+.text {
+  &--main {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: $fw-regular;
+    color: $color-text-main;
+  }
+
+  &--lg {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: $fw-regular;
+    color: $color-neutral-grey;
+  }
+
+  &--md {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: $fw-regular;
+    color: $color-neutral-grey;
+  }
+
+  &--sm {
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: $fw-regular;
+    color: $color-neutral-light;
+  }
+}
