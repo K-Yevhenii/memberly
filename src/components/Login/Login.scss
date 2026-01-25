@@ -1,0 +1,12 @@
+@use "../../styles/typography" as *;
+@use "../../styles/variables" as *;
+.auth-buttons {
+  display: flex;
+  gap: 14px;
+  &__btn {
+    font-family: $font-main;
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: $fw-medium;
+  }
+}
