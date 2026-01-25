@@ -1,0 +1,12 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.layout {
+  &__header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+}
