@@ -1,0 +1,21 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+  }
+  &__links {
+    padding: 8px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-brand-primary;
+      font-weight: $fw-semibold;
+    }
+  }
+}
