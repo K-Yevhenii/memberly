@@ -1,0 +1,28 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.btn {
+  @include button-base;
+
+  &--sm {
+    @include button-size(sm);
+  }
+  &--md {
+    @include button-size(md);
+  }
+  &--lg {
+    @include button-size(lg);
+  }
+
+  &--primary {
+    @include button-variant(primary);
+  }
+  &--secondary {
+    @include button-variant(secondary);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
