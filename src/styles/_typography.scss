@@ -16,6 +16,13 @@
     }
   }
 
+  &--xs {
+    font-size: 28px;
+    line-height: 1.28;
+    font-weight: $fw-bold;
+    color: $color-neutral-grey;
+  }
+
   &--lg {
     font-size: 36px;
     line-height: 1.22;
