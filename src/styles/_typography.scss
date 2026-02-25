@@ -16,19 +16,11 @@
     }
   }
 
-  &--xl-sub {
-    font-size: 64px;
-    line-height: 1.18;
-    font-weight: $fw-semibold;
-    color: $color-brand-primary;
-
-    @media (max-width: $bp-tablet) {
-      font-size: 48px;
-    }
-
-    @media (max-width: $bp-mobile) {
-      font-size: 36px;
-    }
+  &--xs {
+    font-size: 28px;
+    line-height: 1.28;
+    font-weight: $fw-bold;
+    color: $color-neutral-grey;
   }
 
   &--lg {
