@@ -1,10 +1,15 @@
 import "./Login.scss";
+import Button from "../Button/Button";
 
 function Login() {
   return (
     <div className="auth-buttons text--sm">
-      <button className="auth-buttons__btn">Login</button>
-      <button className="auth-buttons__btn">Sing up</button>
+      <Button variant="secondary" size="sm" className="auth-buttons__btn">
+        Login
+      </Button>
+      <Button variant="primary" size="sm" className="auth-buttons__btn">
+        Sing up
+      </Button>
     </div>
   );
 }
