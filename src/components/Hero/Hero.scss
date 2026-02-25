@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+
+.hero {
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 144px;
+    background: $color-neutral-silver;
+  }
+  &__description {
+    padding-bottom: 32px;
+  }
+}
+.hero-swiper {
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: $color-brand-primary;
+    opacity: 0.3;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+}
