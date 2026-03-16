@@ -1,9 +1,9 @@
-import ClientLogoGeometric from "../../assets/clientLogoGeometric";
-import ClientLogoUfo from "../../assets/clientLogoUfo";
-import ClientLogoBlock from "../../assets/clientLogoBlock";
-import ClientLogoIpsum from "../../assets/clientLogoIpsum";
-import ClientLogoMaze from "../../assets/clientLogoMaze";
-import ClientLogoInfinity from "../../assets/clientLogoInfinity";
+import ClientLogoGeometric from "../assets/Icon/clientLogoGeometric";
+import ClientLogoUfo from "../assets/Icon//clientLogoUfo";
+import ClientLogoBlock from "../assets/Icon//clientLogoBlock";
+import ClientLogoIpsum from "../assets/Icon//clientLogoIpsum";
+import ClientLogoMaze from "../assets/Icon//clientLogoMaze";
+import ClientLogoInfinity from "../assets/Icon//clientLogoInfinity";
 
 const clientLogo = [
   {
