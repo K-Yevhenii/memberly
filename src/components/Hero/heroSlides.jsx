@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-
+import Illustration from "../../assets/Image/Illustration.png";
 const heroSlides = [
   {
     id: nanoid(),
@@ -7,7 +7,7 @@ const heroSlides = [
     subtitle: "from 8 years",
     text: "Where to grow your business as a photographer: site or social media?",
     buttonText: "Register",
-    image: "/src/assets/illustration.png",
+    image: Illustration,
   },
   {
     id: nanoid(),
@@ -15,7 +15,7 @@ const heroSlides = [
     subtitle: "from 8 years",
     text: "Where to grow your business as a photographer: site or social media?",
     buttonText: "Register",
-    image: "/src/assets/illustration.png",
+    image: Illustration,
   },
   {
     id: nanoid(),
@@ -23,7 +23,7 @@ const heroSlides = [
     subtitle: "from 8 years",
     text: "Where to grow your business as a photographer: site or social media?",
     buttonText: "Register",
-    image: "/src/assets/illustration.png",
+    image: Illustration,
   },
 ];
 

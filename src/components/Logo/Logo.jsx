@@ -1,6 +1,6 @@
-import LogoIcon from "../../assets/Svg/LogIcon";
 import "./Logo.scss";
-
+import LogoIcon from "../../assets/Icon/LogoIcon";
+LogoIcon;
 function Logo() {
   return (
     <div className="logo">
