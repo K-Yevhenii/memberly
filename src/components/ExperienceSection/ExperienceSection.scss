@@ -1,0 +1,26 @@
+@use '../../styles/variables' as *;
+@use '../../styles/typography' as *;
+
+.experience-section {
+  padding: 0 144px;
+  margin-bottom: 48px;
+
+  &__container {
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    padding: 82px 0 82px;
+  }
+
+  &__title {
+    padding-bottom: 16px;
+  }
+
+  &__description {
+    padding: 0 60px 32px 0;
+  }
+}
