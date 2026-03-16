@@ -1,5 +1,5 @@
 import "./ClientSection.scss";
-import clientLogo from "./clientLogo";
+import clientLogo from "../../constants/clientLogo";
 function ClientSection() {
   return (
     <section className="clients-section">

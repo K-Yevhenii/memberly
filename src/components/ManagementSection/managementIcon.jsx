@@ -1,6 +1,6 @@
-import IconCommunity from "../../assets/IconCommunity";
-import IconBuilding from "../../assets/IconBuilding";
-import IconHands from "../../assets/IconHands";
+import IconBuilding from "../../assets/Icon/IconBuilding";
+import IconHands from "../../assets/Icon/IconHands";
+import IconCommunity from "../../assets/Icon/IconCommunity";
 
 const managementIcon = [
   {
